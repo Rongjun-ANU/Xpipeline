@@ -45,14 +45,47 @@
      ```
 
 ### Dependencies
-- `yt`
-- `astropy`
-- `scipy`
-- `pyxsim`
-- `soxs`
-- `h5py`
-- `numpy`
-- `matplotlib`
+
+The following Python packages are required to run the **Xpipeline**. Ensure that these packages are installed in your environment:
+
+```bash
+attrs==20.2.0
+backcall==0.2.0
+certifi==2020.6.20
+cycler==0.10.0
+Cython==0.29.21
+decorator==4.4.2
+hypothesis==5.33.1
+iniconfig==0.0.0
+ipython==7.18.1
+ipython-genutils==0.2.0
+jedi==0.17.2
+kiwisolver==1.2.0
+matplotlib==3.3.1
+more-itertools==8.5.0
+numpy==1.19.1
+packaging==20.4
+parso==0.7.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==7.2.0
+pip==24.2
+pluggy==0.13.1
+prompt-toolkit==3.0.7
+ptyprocess==0.6.0
+py==1.9.0
+Pygments==2.6.1
+pyparsing==2.4.7
+pytest==6.0.1
+python-dateutil==2.8.1
+scipy==1.5.2
+setuptools==50.3.0
+six==1.15.0
+sortedcontainers==2.2.2
+toml==0.10.1
+traitlets==5.0.4
+wcwidth==0.2.5
+```
 
 ### Example Workflow
 1. **Read the Simulation Data**:
